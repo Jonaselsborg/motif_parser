@@ -151,15 +151,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
 # Ignore the content of the 'fasta' folder, but keep the folder structure
 fasta/*
 
 # Allow the 'fasta' folder itself to be tracked (keep the folder)
 !fasta/
-
-# Ignore any non-fasta files inside the 'fasta' folder (if any)
-fasta/*.*
 
 # Ignore the content of the 'result' folder (it will be created by the script)
 result/*
