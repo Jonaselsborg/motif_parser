@@ -152,13 +152,14 @@ cython_debug/
 #.idea/
 
 
-# Ignore the content of the 'fasta' and 'result' folders, but keep the folder structure
+# Ignore the content of the 'fasta' folder, but keep the folder structure
 fasta/*
-result/*
 
-# Allow the 'fasta' and 'result' folders to be tracked (by keeping an empty folder)
+# Allow the 'fasta' folder itself to be tracked (keep the folder)
 !fasta/
-!result/
 
 # Ignore any non-fasta files inside the 'fasta' folder (if any)
 fasta/*.*
+
+# Ignore the content of the 'result' folder (it will be created by the script)
+result/*
