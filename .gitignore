@@ -155,7 +155,7 @@ cython_debug/
 fasta/*
 
 # Allow the 'fasta' folder itself to be tracked (keep the folder)
-!fasta/
+!fasta/.keep
 
 # Ignore the content of the 'result' folder (it will be created by the script)
 result/*
