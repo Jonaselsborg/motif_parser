@@ -1,8 +1,14 @@
+# Coded by Jonas D. Elsborg
+# jonas.elsborg@cpr.ku.dk
+# 
+
+
 import os
 import re
 import pandas as pd
 
 # Input: Prompt user for the pattern to search in the fasta files
+# pattern = "KS"
 pattern = input("Please enter what the script should extract:\n")
 pattern = pattern.upper()
 
