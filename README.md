@@ -30,10 +30,10 @@ result/position_results_KS.txt
 ### Example Output
 | Uniprot ID | Position in sequence |
 |:----------:|:--------------------:|
-| P09874     | 498                  |
-| P09874     | 506                  |
-| P09874     | 518                  |
-| P33778     | 6                    |
+| P09874     | 499                  |
+| P09874     | 507                  |
+| P09874     | 519                  |
+| P33778     | 7                    |
 
 ## Usage
 Run the script from the terminal:
